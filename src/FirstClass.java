@@ -8,5 +8,11 @@ public class FirstClass {
         for (String string : array) {
             System.out.print(string + " ");
         }
+        NewClass nc = new NewClass();
+        System.out.println(nc.s); //new changes 2.0
     }
+}
+
+class NewClass{
+    final String s = "GIT";
 }
