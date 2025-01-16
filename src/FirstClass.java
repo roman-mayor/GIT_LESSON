@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class FirstClass {
     public static void main(String[] args) {
         System.out.println("this is first class");
@@ -14,21 +10,5 @@ public class FirstClass {
         }
 
         System.out.println();
-
-        NewClass nc = new NewClass();
-        System.out.println(nc.s); //new changes 2.0
-    }
-}
-
-class NewClass{
-    final String s = "GIT".toLowerCase();
-}
-
-class SecondClass{
-    public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>(Arrays.asList(4,4));
-        for (Integer i : list) {
-            System.out.println(++i);
-        }
     }
 }
