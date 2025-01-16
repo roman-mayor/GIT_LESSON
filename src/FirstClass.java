@@ -5,7 +5,7 @@ import java.util.List;
 public class FirstClass {
     public static void main(String[] args) {
         System.out.println("this is first class");
-        System.out.println("this is change"); //new changes
+        System.out.println("this is change!"); //new changes
 
         String s = "GIT";
         String[]array = s.split("");
